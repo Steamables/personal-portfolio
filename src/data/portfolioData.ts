@@ -66,6 +66,7 @@ export const skills: SkillCategory[] = [
     title: 'Frameworks',
     items: [
       'React',
+      'React Three Fiber',
       'Three.js',
       'Tailwind CSS',
       'Framer Motion',
