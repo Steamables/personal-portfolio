@@ -6,7 +6,7 @@ This is my personal portfolio website built to showcase my projects, technical s
 - React
 - Tailwind CSS
 - Framer Motion
-- (Optional: Three.js / React Three Fiber)
+
 
 ## 📌 Features
 - Modern responsive design
