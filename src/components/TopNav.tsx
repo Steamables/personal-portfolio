@@ -32,8 +32,13 @@ export function TopNav() {
         <a
           href="#home"
           onClick={closeMobileMenu}
-          className="font-display text-sm font-semibold tracking-wide text-white"
+          className="flex items-center gap-3 font-display text-sm font-semibold tracking-wide text-white"
         >
+          <img
+            src="/DSC_0145.jpg"
+            alt="Yusuf Aziez portrait"
+            className="h-10 w-10 rounded-full border border-white/15 object-cover object-top"
+          />
           Yusuf Aziez
         </a>
 
@@ -90,3 +95,5 @@ export function TopNav() {
     </motion.header>
   )
 }
+
+
