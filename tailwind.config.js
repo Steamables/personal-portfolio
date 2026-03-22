@@ -5,13 +5,13 @@ export default {
     extend: {
       colors: {
         ink: {
-          950: '#040712',
-          900: '#0a1328',
+          950: '#05020d',
+          900: '#120a24',
         },
         brand: {
-          300: '#6ee7f9',
-          400: '#22d3ee',
-          500: '#14b8a6',
+          300: '#c4b5fd',
+          400: '#8b5cf6',
+          500: '#6d28d9',
         },
       },
       fontFamily: {
@@ -19,7 +19,7 @@ export default {
         display: ['Space Grotesk', 'ui-sans-serif', 'sans-serif'],
       },
       boxShadow: {
-        glow: '0 20px 60px -24px rgba(34, 211, 238, 0.4)',
+        glow: '0 20px 60px -24px rgba(139, 92, 246, 0.4)',
       },
     },
   },
