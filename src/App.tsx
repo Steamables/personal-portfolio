@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion'
 import { ContactSection } from './sections/ContactSection'
 import { TopNav } from './components/TopNav'
 import { HeroSection } from './sections/HeroSection'
@@ -8,6 +7,7 @@ import { ProjectsSection } from './sections/ProjectsSection'
 import { LeadershipSection } from './sections/LeadershipSection'
 import { CompetitionsSection } from './sections/CompetitionsSection'
 import { ScrollProgress } from './components/ScrollProgress'
+import { AmbientBackground } from './components/AmbientBackground'
 
 function App() {
   return (
@@ -18,20 +18,9 @@ function App() {
       >
         Skip to content
       </a>
-      <ScrollProgress />
-      <div className="pointer-events-none absolute inset-0 overflow-hidden">
-        <motion.div
-          className="absolute -top-48 left-[10%] h-80 w-80 rounded-full bg-brand-400/15 blur-3xl"
-          animate={{ x: [0, 28, -12, 0], y: [0, -24, 12, 0] }}
-          transition={{ duration: 26, repeat: Infinity, ease: 'easeInOut' }}
-        />
-        <motion.div
-          className="absolute right-[8%] top-[38%] h-72 w-72 rounded-full bg-brand-500/20 blur-3xl"
-          animate={{ x: [0, -20, 14, 0], y: [0, 18, -12, 0] }}
-          transition={{ duration: 30, repeat: Infinity, ease: 'easeInOut' }}
-        />
-      </div>
 
+      <ScrollProgress />
+      <AmbientBackground />
       <TopNav />
 
       <main id="main-content" className="relative z-10 pt-20 md:pt-24">
