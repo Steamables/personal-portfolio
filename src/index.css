@@ -12,10 +12,7 @@ body {
   margin: 0;
   min-height: 100vh;
   overflow-x: hidden;
-  background:
-    radial-gradient(circle at 10% 15%, rgba(34, 211, 238, 0.18), transparent 34%),
-    radial-gradient(circle at 85% 18%, rgba(20, 184, 166, 0.16), transparent 30%),
-    linear-gradient(180deg, #040712 0%, #081126 100%);
+  background: #05020d;
   color: #e2e8f0;
   font-family: 'Manrope', ui-sans-serif, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -27,8 +24,27 @@ body {
 }
 
 ::selection {
-  background-color: rgba(34, 211, 238, 0.35);
+  background-color: rgba(139, 92, 246, 0.35);
   color: #f8fafc;
+}
+
+.ambient-base {
+  background:
+    radial-gradient(circle at 14% 10%, rgba(139, 92, 246, 0.2), transparent 36%),
+    radial-gradient(circle at 84% 15%, rgba(109, 40, 217, 0.18), transparent 33%),
+    linear-gradient(180deg, #05020d 0%, #120a24 100%);
+}
+
+.ambient-grid {
+  background-image:
+    linear-gradient(rgba(196, 181, 253, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(196, 181, 253, 0.1) 1px, transparent 1px);
+  background-size: 120px 120px;
+  mask-image: radial-gradient(circle at 50% 34%, rgba(0, 0, 0, 0.92), transparent 80%);
+}
+
+.ambient-vignette {
+  background: radial-gradient(circle at 50% 42%, rgba(18, 10, 36, 0) 0%, rgba(5, 2, 13, 0.9) 80%);
 }
 
 @layer components {
@@ -48,7 +64,32 @@ body {
 @layer base {
   a:focus-visible,
   button:focus-visible {
-    outline: 2px solid rgba(103, 232, 249, 0.9);
+    outline: 2px solid rgba(196, 181, 253, 0.9);
     outline-offset: 2px;
   }
+}
+
+/* Global scrollbar styling */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(139, 92, 246, 0.9) rgba(10, 7, 20, 0.95);
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: linear-gradient(180deg, rgba(7, 5, 14, 0.98) 0%, rgba(16, 10, 30, 0.98) 100%);
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: linear-gradient(180deg, rgba(167, 139, 250, 0.95) 0%, rgba(109, 40, 217, 0.95) 100%);
+  border: 1px solid rgba(10, 7, 20, 0.95);
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, rgba(196, 181, 253, 0.95) 0%, rgba(124, 58, 237, 0.95) 100%);
 }
