@@ -27,26 +27,25 @@ export type Competition = {
 export const heroData = {
   name: 'Yusuf Aziez',
   tagline:
-    'Computer Science Undergraduate | Interests in Artificial Intelligence, Cloud Computing, and Machine Learning',
+    'Software engineering undergraduate focused on Software Engineering, DevOps, and QA',
   intro:
-    'Second-year Computer Science undergraduate at IIT Sri Lanka with hands-on experience building full-stack, mobile, and analytics-driven software systems. Experience includes React-based web development, mobile authentication systems, and Python analytics pipelines. Alongside technical work, actively contributes as Treasurer of the IEEE Robotics & Automation Society, with involvement in industry outreach, event execution, and large-scale technical initiatives.',
+    'Strong in Java and Python, building practical software for real-world use cases.',
 }
 
 export const aboutParagraphs = [
-  'I am a second-year Computer Science undergraduate at the Informatics Institute of Technology (IIT), Sri Lanka. My academic and project journey is shaping toward practical software engineering with strong interest in Artificial Intelligence, Cloud Computing, and Machine Learning domains.',
-  'Beyond academics, I contribute to IEEE through leadership, outreach coordination, and operational execution. This mix of technical building and organized team work has shaped how I approach software with clarity, reliability, and user-centered thinking.',
-  'I am continuing to strengthen system fundamentals through Java and Python, data-focused implementation work, and cloud-based development workflows while exploring opportunities to contribute to open-source ecosystems.',
+  'My current path is centered on strong software engineering fundamentals and applying them to useful products. I am especially interested in AI-enabled systems, cloud-native workflows, and data-informed applications that solve real user problems.',
+  'Recent work includes React and TypeScript interfaces, Firebase-backed application flows, and Python analytics tasks. I prioritize maintainable architecture, clear code, and dependable delivery over unnecessary complexity.',
+  'Beyond coding, IEEE leadership responsibilities have strengthened my collaboration, ownership, and execution under deadlines. I am open to internships where I can contribute early and keep growing in high-quality engineering teams.',
 ]
 
 export const whatIBring = [
-  'Strong Java foundations through multiple coursework implementations',
-  'Practical Python usage for analytics and data-focused tasks',
-  'Practical project experience from concept to implementation',
-  'Interest-driven exploration in Artificial Intelligence, Cloud Computing, and Machine Learning',
-  'Leadership and coordination through IEEE initiatives',
-  'Open-source mindset and collaborative learning approach',
-  'Clear communication and collaborative execution',
-  'A consistent focus on building reliable, real-world systems',
+  'Java and Python foundations reinforced through coursework and project delivery',
+  'React and TypeScript experience for clean, maintainable interfaces',
+  'Hands-on Firebase use across Authentication, Firestore, and Hosting',
+  'Comfort working across implementation, testing, and deployment workflows',
+  'Leadership discipline from IEEE RAS Treasurer responsibilities',
+  'Strong communication and team collaboration in technical settings',
+  'Curiosity-driven mindset toward AI, cloud, and ML-oriented systems',
 ]
 
 export const skills: SkillCategory[] = [
@@ -80,7 +79,7 @@ export const skills: SkillCategory[] = [
       'GitHub',
       'Vite',
       'Expo',
-      'Firebase (Auth, Firestore, Hosting)',
+      'Firebase',
       'Cloudflare',
       'Figma',
     ],
@@ -218,3 +217,7 @@ export const contact = {
   cvDownload:
     'https://drive.google.com/uc?export=download&id=1PI-tv38_8h2eyuWYWWY6yuEPuJoeU0hn',
 }
+
+
+
+
